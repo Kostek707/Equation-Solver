@@ -34,9 +34,9 @@ class SystemOfEquationSolver:
             if First is True:
                 a=self.a
                 b=self.b
-            #Sprawdza czy da się uprościć nawiasy
+            #Checks whether it is possible to simplify algebraic expressions in parentheses
             try:
-                #Upraszcza nawiasy
+                #Simplifies algebraic expressions in parentheses
                 a=sympy.expand(a)
                 b=sympy.expand(b)
             except:
@@ -347,7 +347,7 @@ class SystemOfEquationSolver:
             left_first=str(sympy.sympify(''.join(list_a3)))
             right_first=str(sympy.sympify(''.join(list_b3)))
 
-            #Converts the left siede to the list and the right one to the float√
+            #Converts the left side to the list and the right one to the float
             right_first=float(right_first)
             left_first=list(left_first)
 
@@ -778,7 +778,7 @@ class EquationSolver:
         left_first=str(sympy.sympify(''.join(list_a3)))
         right_first=str(sympy.sympify(''.join(list_b3)))
 
-        #Converts the left siede to the list and the right one to the float
+        #Converts the left sied to the list and the right one to the float
         right_first=float(right_first)
         left_first=list(left_first)
 
