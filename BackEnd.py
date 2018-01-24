@@ -507,11 +507,11 @@ class EquationSolver:
         self.b=right_side
 
     def solve(self):
-        #Ustala symbol niewiadomej
+        #Sets the unknown symbol
         x=sympy.symbols('x')
-        #Sprawdza czy da się uprościć nawiasy
+        #Checks whether it is possible to simplify algebraic expressions in parentheses
         try:
-            #Uproszczenie nawiasów
+            #Simplifies algebraic expressions in parentheses
             self.a=sympy.expand(self.a)
             self.b=sympy.expand(self.b)
         except:
