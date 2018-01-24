@@ -3,11 +3,11 @@ The program can be used to solve single linear equations and systems of two line
 
 Required python libraries:
 
-*Sympy
+* Sympy
 
-*Numpy
+* Numpy
 
-*Tkinter
+* Tkinter
 
 To start the program enter the following command in the terminal:
 python Frontend.py
