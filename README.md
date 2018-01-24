@@ -17,13 +17,13 @@ Then the program window will be displayed.
 
 The program accepts following symbols:
 
-addition "+"
+* addition "+"
 
-subtraction "-"
+* subtraction "-"
 
-multiplication "*"
+* multiplication "*"
 
-division "/"
+* division "/"
 
 Algebraic expression must include mathematical symbols (e.g. "2x" must be written as "2*x").
 
