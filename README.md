@@ -18,8 +18,11 @@ Then the program window will be displayed.
 The program accepts following symbols:
 
 addition "+"
+
 subtraction "-"
+
 multiplication "*"
+
 division "/"
 
 Algebraic expression must include mathematical symbols (e.g. "2x" must be written as "2*x").
